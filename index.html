@@ -3,7 +3,90 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
     <title>My Portfolio</title>
   </head>
-  <body></body>
+  <body style="background-color: #e2baff;">
+    <div class="d-flex justify-content-center gap-4 fw-bold my-4">
+      <a style="text-decoration: none;" href="index.html">Home</a>
+      <a style="text-decoration: none;" href="experience.html">Experience</a>
+      <a style="text-decoration: none;" href="gallery.html">Gallery</a>
+      <a style="text-decoration: none;" href="contact.html">Contact</a>
+    </div>
+    <div 
+      class="d-flex justify-content-center align-items-center mx-auto gap-3"
+      style="max-width: 700px"
+    >
+      <div>
+        <img
+          class="rounded-circle"
+          src="picture\studentpic.jpg"
+          width="200"
+          height="200"
+          style="object-fit: cover; border: 5px solid white;"
+          
+        />
+      </div>
+      <div class="d-none d-sm-block">
+        <div class="display-5 mb-3">Nuttawat Fundeekorakiat</div>
+        <div class="text-muted">
+          Hello, I'm Nuttawat Fundeekorakiat! First-year Computer Engineering
+          student at Chiang Mai University.
+        </div>
+      </div>
+    </div>
+    <div class="d-flex justify-content-center align-items-center">
+      <div class="text-center" style="max-width: 450px">
+        <div class="display-5 d-sm-none my-3 mx-2">Nuttawat Fundeekorakiat</div>
+        <div class="text-muted d-sm-none my-3 mx-2">
+          Hello, I'm Nuttawat Fundeekorakiat! First-year Computer Engineering
+          student at Chiang Mai University.
+        </div>
+      </div>
+    </div>
+    <p class="text-center fs-3">Skills</p>
+    <div style="max-width: 700px" class="mx-auto px-3">
+      <div class="d-flex mb-3 shadow-sm rounded" style="border: 4px solid rgb(240, 240, 240); background-color: #ffffff;">
+        <div class="rounded-start">
+          <img
+            src="picture\CodingPic.webp"
+            width="150px"
+            height="150px"
+            style="object-fit: cover"
+            class="rounded-start d-none d-sm-block"
+          />
+        </div>
+        <div class="p-4">
+          <p class="fw-semibold fs-5">Programming</p>
+          <span class="text-muted">
+            I have experience in coding with C++, HTML, and CSS.
+          </span>
+        </div>
+        
+      </div>
+
+      <div class="d-flex mb-3 shadow-sm rounded" style="border: 4px solid rgb(240, 240, 240); background-color: #ffffff;">
+        <div class="p-4">
+          <p class="fw-semibold fs-5">UI/UX Designing</p>
+          <span class="text-muted">
+            I have experience using design software like Figma and Canva to create various designs.
+          </span>
+        </div>
+        <div class="rounded-end">
+          <img
+            src="picture\Design.jpg"
+            width="150px"
+            height="150px"
+            style="object-fit: cover"
+            class="rounded-end d-none d-sm-block"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
